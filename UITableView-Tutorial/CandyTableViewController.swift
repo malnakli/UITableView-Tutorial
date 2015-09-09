@@ -86,6 +86,10 @@ class CandyTableViewController: UITableViewController , UISearchResultsUpdating{
         }
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+    
     func updateSearchResultsForSearchController(searchController: UISearchController)
     {
         filteredCandies.removeAll(keepCapacity: false)
