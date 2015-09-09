@@ -12,6 +12,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search for Candy" id="Cnt-SQ-HBQ">
+                            <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>Title</string>
+                                <string>Title</string>
+                            </scopeButtonTitles>
+                            <connections>
+                                <outlet property="delegate" destination="vma-H3-gfH" id="Awx-Te-mlR"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="6pl-K7-H86">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -30,8 +42,20 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="f6x-go-nlS"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="VlY-y5-uwx" id="hFL-rD-JsY"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcw-ou-XpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="VlY-y5-uwx">
+                    <connections>
+                        <outlet property="delegate" destination="vma-H3-gfH" id="mXX-aH-Fzl"/>
+                        <outlet property="searchBar" destination="Cnt-SQ-HBQ" id="UuE-K7-sHz"/>
+                        <outlet property="searchContentsController" destination="vma-H3-gfH" id="TZb-K8-KWl"/>
+                        <outlet property="searchResultsDataSource" destination="vma-H3-gfH" id="hY1-Ct-1sk"/>
+                        <outlet property="searchResultsDelegate" destination="vma-H3-gfH" id="K7q-Bq-s3t"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="833" y="257"/>
         </scene>
