@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D88BA5071BA0CB8E00C05E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA5061BA0CB8E00C05E0E /* AppDelegate.swift */; };
-		D88BA5091BA0CB8E00C05E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA5081BA0CB8E00C05E0E /* ViewController.swift */; };
 		D88BA50C1BA0CB8E00C05E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88BA50A1BA0CB8E00C05E0E /* Main.storyboard */; };
 		D88BA50E1BA0CB8E00C05E0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88BA50D1BA0CB8E00C05E0E /* Images.xcassets */; };
 		D88BA5111BA0CB8E00C05E0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88BA50F1BA0CB8E00C05E0E /* LaunchScreen.xib */; };
 		D88BA51D1BA0CB8E00C05E0E /* UITableView_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA51C1BA0CB8E00C05E0E /* UITableView_TutorialTests.swift */; };
+		D88BA5271BA0CE7100C05E0E /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA5261BA0CE7100C05E0E /* Candy.swift */; };
+		D88BA5291BA0CF4500C05E0E /* CandyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA5281BA0CF4500C05E0E /* CandyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		D88BA5011BA0CB8E00C05E0E /* UITableView-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88BA5051BA0CB8E00C05E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88BA5061BA0CB8E00C05E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D88BA5081BA0CB8E00C05E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D88BA50B1BA0CB8E00C05E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D88BA50D1BA0CB8E00C05E0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D88BA5101BA0CB8E00C05E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D88BA5161BA0CB8E00C05E0E /* UITableView-TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88BA51B1BA0CB8E00C05E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88BA51C1BA0CB8E00C05E0E /* UITableView_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_TutorialTests.swift; sourceTree = "<group>"; };
+		D88BA5261BA0CE7100C05E0E /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		D88BA5281BA0CF4500C05E0E /* CandyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 		D88BA5031BA0CB8E00C05E0E /* UITableView-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				D88BA5281BA0CF4500C05E0E /* CandyTableViewController.swift */,
+				D88BA5261BA0CE7100C05E0E /* Candy.swift */,
 				D88BA5061BA0CB8E00C05E0E /* AppDelegate.swift */,
-				D88BA5081BA0CB8E00C05E0E /* ViewController.swift */,
 				D88BA50A1BA0CB8E00C05E0E /* Main.storyboard */,
 				D88BA50D1BA0CB8E00C05E0E /* Images.xcassets */,
 				D88BA50F1BA0CB8E00C05E0E /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88BA5091BA0CB8E00C05E0E /* ViewController.swift in Sources */,
+				D88BA5271BA0CE7100C05E0E /* Candy.swift in Sources */,
 				D88BA5071BA0CB8E00C05E0E /* AppDelegate.swift in Sources */,
+				D88BA5291BA0CF4500C05E0E /* CandyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				D88BA5221BA0CB8E00C05E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D88BA5231BA0CB8E00C05E0E /* Build configuration list for PBXNativeTarget "UITableView-TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				D88BA5251BA0CB8E00C05E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
