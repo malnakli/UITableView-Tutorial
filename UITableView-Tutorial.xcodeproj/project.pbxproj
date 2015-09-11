@@ -14,6 +14,7 @@
 		D88BA51D1BA0CB8E00C05E0E /* UITableView_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA51C1BA0CB8E00C05E0E /* UITableView_TutorialTests.swift */; };
 		D88BA5271BA0CE7100C05E0E /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA5261BA0CE7100C05E0E /* Candy.swift */; };
 		D88BA5291BA0CF4500C05E0E /* CandyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA5281BA0CF4500C05E0E /* CandyTableViewController.swift */; };
+		D88BA52B1BA0F6B500C05E0E /* MyBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88BA52A1BA0F6B500C05E0E /* MyBasket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D88BA51C1BA0CB8E00C05E0E /* UITableView_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_TutorialTests.swift; sourceTree = "<group>"; };
 		D88BA5261BA0CE7100C05E0E /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		D88BA5281BA0CF4500C05E0E /* CandyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTableViewController.swift; sourceTree = "<group>"; };
+		D88BA52A1BA0F6B500C05E0E /* MyBasket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBasket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		D88BA5031BA0CB8E00C05E0E /* UITableView-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				D88BA52A1BA0F6B500C05E0E /* MyBasket.swift */,
 				D88BA5281BA0CF4500C05E0E /* CandyTableViewController.swift */,
 				D88BA5261BA0CE7100C05E0E /* Candy.swift */,
 				D88BA5061BA0CB8E00C05E0E /* AppDelegate.swift */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88BA5271BA0CE7100C05E0E /* Candy.swift in Sources */,
+				D88BA52B1BA0F6B500C05E0E /* MyBasket.swift in Sources */,
 				D88BA5071BA0CB8E00C05E0E /* AppDelegate.swift in Sources */,
 				D88BA5291BA0CF4500C05E0E /* CandyTableViewController.swift in Sources */,
 			);
